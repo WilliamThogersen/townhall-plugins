@@ -1,0 +1,15 @@
+{
+  "name": "starter-prompts",
+  "version": "0.1.0",
+  "description": "Extra starter prompts for the home screen",
+  "author": { "name": "WilliamThogersen", "url": "https://github.com/WilliamThogersen" },
+  "homepage": "https://github.com/WilliamThogersen/townhall-plugins",
+  "license": "MIT",
+  "apiVersion": 1,
+  "permissions": {
+    "prompts": ["starters"]
+  },
+  "contributes": {
+    "prompts": { "starters": "prompts/starters.json" }
+  }
+}

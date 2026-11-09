@@ -1,0 +1,13 @@
+{
+  "name": "theme-slate",
+  "version": "0.1.0",
+  "description": "A cool blue-grey theme with a dark and a light palette",
+  "author": { "name": "WilliamThogersen", "url": "https://github.com/WilliamThogersen" },
+  "homepage": "https://github.com/WilliamThogersen/townhall-plugins",
+  "license": "MIT",
+  "apiVersion": 1,
+  "permissions": {},
+  "contributes": {
+    "theme": "theme.css"
+  }
+}
