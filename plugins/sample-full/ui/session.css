@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 12px;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+}
+
+#status {
+  margin: 0;
+}
