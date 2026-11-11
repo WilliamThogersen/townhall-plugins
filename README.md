@@ -2,13 +2,14 @@
 
 The official plugin marketplace for [townhall](https://github.com/WilliamThogersen/townhall). Townhall ships it built in under the name `townhall-official`.
 
-The plugins here are declarative: they contribute a theme, prompts and agent types, and run no code, hooks, MCP servers or UI.
+Most plugins here are declarative: they contribute a theme, prompts and agent types. `sample-full` also contributes a hook, a Claude MCP server and a session section to show how they are written.
 
 | plugin | contributes |
 |--------|-------------|
 | `theme-slate` | a blue-grey theme with a dark and a light palette (`theme.css`) |
 | `starter-prompts` | extra starter prompts for the home screen |
 | `agent-types` | the `tester` and `reviewer` agent types |
+| `sample-full` | a sample that shows every capability: a hook, a Claude MCP server, an agent type and a session section (see [its README](plugins/sample-full/README.md)) |
 
 ## Layout
 

@@ -1,0 +1,8 @@
+name = "sample-helper"
+description = "answers short questions and can search the sample notes"
+adapter = "claude"
+model = "haiku"
+permission_mode = "plan"
+prompt = """
+Use the search_samples tool before you answer, and keep the answer short.
+"""

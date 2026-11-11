@@ -1,0 +1,27 @@
+{
+  "name": "sample-full",
+  "version": "1.0.0",
+  "description": "A sample plugin that shows every capability: a hook, a Claude MCP server, an agent type and a session section",
+  "author": { "name": "WilliamThogersen", "url": "https://github.com/WilliamThogersen" },
+  "homepage": "https://github.com/WilliamThogersen/townhall-plugins",
+  "license": "MIT",
+  "apiVersion": 1,
+  "permissions": {
+    "api": ["tasks:read", "storage"],
+    "hooks": ["task.started"],
+    "claude": {
+      "mcp": { "servers": { "sample": ["search_samples"] } }
+    },
+    "ui": ["session.section"]
+  },
+  "contributes": {
+    "agentTypes": ["agent-types/helper.toml"],
+    "hooks": "townhall-hooks.json",
+    "ui": [
+      { "slot": "session.section", "title": "sample", "entry": "ui/session.html", "height": 120 }
+    ]
+  },
+  "claude": {
+    "mcp": "mcp/servers.json"
+  }
+}
